@@ -76,7 +76,7 @@ export default function SignupPage() {
           </label>
           <div className="grid grid-cols-12 gap-3 mt-3">
             <label className="col-span-4 text-sm font-medium">
-              Country Code
+            Code
               <input type="text" name="countryCode" value="+91 (IND)" className="w-full p-2 border rounded mt-1 bg-gray-200" disabled />
             </label>
             <label className="col-span-8 text-sm font-medium">
