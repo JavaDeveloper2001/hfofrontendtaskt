@@ -17,7 +17,7 @@ export default function SignupPage() {
   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
-    const { name, value, type } = e.target;
+    const { name, type } = e.target;
     setFormData({
       ...formData,
       [name]: type === "checkbox"
